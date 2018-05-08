@@ -6,7 +6,7 @@ description: A place like home
 #baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
 #baseurl: "/openlabs-website-restyle-2018"
 baseurl: ""
-url: "http://127.0.0.1:4000/openlabs-website-restyle-2018/"
+url: "https://leopoldo-tosi.github.io/openlabs-aps/"
 author: OpenLabs
 street_address: TODO 1234 Somewhere Road
 city: Nashville
