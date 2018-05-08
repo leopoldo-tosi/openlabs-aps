@@ -67,7 +67,7 @@ layout: default
 	<div class="posts">
 
 	{% for post in site.posts%}
-
+	{% if post.path contains 'openlabs' %}
 	<article>
 		<a href="{{site.baseurl}}{{post.url}}" class="image"><img src="assets/images/{{post.image}}" alt="" /></a>
 		<h3><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h3>
@@ -76,7 +76,7 @@ layout: default
 			<li><a href="{{site.baseurl}}{{post.url}}" class="button">More</a></li>
 		</ul>
 	</article>
-
+	{% endif %}
 	{% endfor %}
 
 

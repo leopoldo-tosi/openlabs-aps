@@ -33,3 +33,12 @@ twitter_url: https://twitter.com/Openlabs_mi
 
 # Build settings
 markdown: kramdown
+plugins:
+# - jekyll-admin
+# - jekyll-feed
+# - jekyll-seo-tag
+# - jekyll-sitemap
+# - jekyll-lunr-js-search 
+  - github-pages
+#lunr_search:
+# excludes: [rss.xml, atom.xml] 
