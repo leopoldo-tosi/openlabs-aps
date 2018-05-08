@@ -1,0 +1,26 @@
+# Nome e Cognome nelle nostre email
+set from= 'tiepolo96@gmail.com'
+set realname= 'Giovanni Battista Tiepolo'
+
+# Imap: per leggere le mail (restano accessibili anche da altri PC,
+# cellulare, etc.)
+set imap_user = 'tiepolo96@gmail.com'
+set imap_pass = 'rosatiepolo'
+
+set spoolfile = imaps://imap.gmail.com/INBOX
+set folder = imaps://imap.gmail.com/
+set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
+set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
+
+set record="" # non salvare le mail inviate
+set mbox="imaps://imap.gmail.com/[Gmail]/All Mail"
+set imap_keepalive=900 # non rompere con la password
+
+# Smtp: per inviare le mail
+set smtp_url = 'smtp://tiepolo96@gmail.com@smtp.gmail.com:587/'
+set smtp_pass = 'rosatiepolo' # la stessa dell'IMAP
+
+# Configurazione di esempio, dividi lo schermo in due, nella
+# parte alta tutti gli oggetti, nella parte bassa il testo del
+# messaggio selezionato
+# set pager_index_lines=10

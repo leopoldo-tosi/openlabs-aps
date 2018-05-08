@@ -1,0 +1,35 @@
+# Site settings
+title: OpenLabs
+subtitle: software libero, cultura libera
+email: info[at]openlabs[dot]it
+description: A place like home
+#baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
+#baseurl: "/openlabs-website-restyle-2018"
+baseurl: ""
+url: "http://127.0.0.1:4000/openlabs-website-restyle-2018/"
+author: OpenLabs
+street_address: TODO 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
+CF: 97267880157
+PIVA: 09649510964
+
+
+# Social settings
+500px_url:
+facebook_url: https://www.facebook.com/groups/30782443871/
+github_url: https://github.com/Openlabs-aps
+linkedin_url: https://www.linkedin.com/groups/8249677/profile
+twitter_url: https://twitter.com/Openlabs_mi
+#pinterest_url:
+#slack_url:
+#gitlab_url: https://gitlab.com/u/andrewbanchich
+#googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+#instagram_url: https://instagram.com
+
+
+# Build settings
+markdown: kramdown
