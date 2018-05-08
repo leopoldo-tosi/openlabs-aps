@@ -33,7 +33,8 @@ twitter_url: https://twitter.com/Openlabs_mi
 
 # Build settings
 markdown: kramdown
-root: ../
+permalink: .
+#root: ../
 plugins:
 # - jekyll-admin
 # - jekyll-feed
