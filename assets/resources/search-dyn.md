@@ -1,14 +1,15 @@
+---
+layout: layout1
+---
 
 <section id="search">
       <!-- TODO: Search section -->
 
-<div class="tiles">
-<form method="get" action="{{site.baseurl}}/search-dyn.html">
-	<input type="text" name="query" id="search-box" placeholder="Search"  onclick="javascript:doSearch();" />
+<div class="tiles" style=" columns: 200px 3;">
+<form method="get" action="{{site.baseurl}}/assets/resources/search-dyn.html">
+	<input type="hidden" name="query" id="search-box" placeholder="Search"  onclick="javascript:doSearch();" />
 </form>
-
 <ul id="search-results"></ul>
-
 <script>
   window.store = {
               {% for post in site.posts %}
