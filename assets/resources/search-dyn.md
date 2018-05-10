@@ -5,9 +5,9 @@ layout: layout1
 <section id="search">
       <!-- TODO: Search section -->
 
-<div class="tiles" style=" columns: 200px 3;">
+<div class="tiles" style=" columns: 200px 2;">
 <form method="get" action="{{site.baseurl}}/assets/resources/search-dyn.html">
-	<input type="hidden" name="query" id="search-box" placeholder="Search"  onclick="javascript:doSearch();" />
+	<input type="hidden" name="query" id="search-box" />
 </form>
 <ul id="search-results"></ul>
 <script>
@@ -27,8 +27,8 @@ layout: layout1
                                 };
 
 </script>
-<script src="{{site.baseurl}}/js/lunr.min.js"></script>
-<script src="{{site.baseurl}}/js/search-dyn.js"></script>
+<script src="{{site.baseurl}}/assets/js/lunr.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/search-dyn.js"></script>
 </div>
 
 </section>

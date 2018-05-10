@@ -1,4 +1,6 @@
-# README
+### README
+[site ulr](https://leopoldo-tosi.github.io/openlabs-aps/)
+[repo url](https://github.com/leopoldo-tosi/openlabs-aps)
 
 Questo è il repository utilizzato per la fase di sviluppo del nuovo sito per [OpenLabs](http://www.openlabs.it).
 Qui includiamo alcune indicazioni sulla struttura del nuovo sito e alcune istruzioni su come creare o modificare contenuti.
